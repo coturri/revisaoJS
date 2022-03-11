@@ -41,13 +41,13 @@
 		function mult(){
 
 			for(i = 1; i<= 100; i++){
-			if(i%5==0){
+			
 				if(i<100)
-					document.write("<p style='font-size:" + i + "pt;color: rgb("+(i*2)+","+(i*2)+","+(i*2)+";'> " + i + ",</p>")
+					document.write("<p style='font-size:" + i + "pt;background-color: rgb("+(i*1)+","+(i*2)+","+(i*3)+");'> " + i + ",</p>")
 				else	
-					document.write("<p style='font-size:" + i + "pt;color: gold;'> " + i + ".</p>")
+					document.write("<p style='font-size:" + i + "pt;background-color:rgb("+(i*1)+","+(i*2)+","+(i*3)+");'> " + i + ".</p>")
 				}			
-			}		
+					
 		}		
 				
 		mult()	
